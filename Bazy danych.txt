@@ -1,0 +1,20 @@
+1. SELECT * FROM 'gatunki'
+2. SELECT nazwa_zwyczajna ,nazwa_lacinska FROM "gatunki"
+3. SELECT ID FROM 'gatunki'
+4. SELECT * FROM 'gatunki' WHERE ID=100
+5.SELECT * FROM 'gatunki' WHERE ID>100
+6.SELECT * FROM "gatunki" WHERE ID<=100
+9. SELECT COUNT (*) FROM 'gatunki'
+10. SELECT AVG (*) FROM 'gatunki'
+11. SELECT* FROM 'gatunki' WHERE id=SELECT MAX(`id`) FROM `zarobki`
+12. SELECT* FROM 'gatunki' WHERE id=SELECT MIN(`id`) FROM `zarobki`
+16. CREATE TABLE zoo
+{
+int ilosc_zwierzat
+varchar nazwy
+PRIMARY KEY (id)
+}
+13. INSERT INTO 'gatunki' (Nazwa_psa,Nazwa_kota,Nazwa_papugi,Nazwa_chomika,Nazwa_szceniaka) VALUES (Michal,Bella,Ada,Gustaw,Macius)
+15. DELETE FROM 'gatunki' (Michal,Bella,Ada,Gustaw,Macius)
+17.INSERT INTO 'nazwy_klubów' (Hiszpania,Portugalia,Francja,Niemcy,Polska,Wlochy,Anglia,Rosja,Slowacja,Arabia Saudyjska) VALUES (Real Madryt,Lizbona,Lyon,Bayern Monachium,Legia Warszawa,Juventus,Liverpool,Sankt Petersburg,Inter Bratyslawa,Al-Ahli)
+20.TRUNCATE 'zoo'
